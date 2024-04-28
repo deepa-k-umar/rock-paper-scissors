@@ -42,7 +42,7 @@ node {
    }
 	
    stage('Static Code Analysis'){
-       build job: 'buildspocliz'
+       build job: 'static-code-analysis'
    }
 	
 
